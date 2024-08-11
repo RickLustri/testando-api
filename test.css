@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Inconsolata:wght@200..900&family=Pixelify+Sans:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gupter:wght@400;500;700&family=Inconsolata:wght@200..900&family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gupter:wght@400;500;700&family=Inconsolata:wght@200..900&family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+
+}
+
+label {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+button {
+  margin-top: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  height: 25px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+hr {
+  width: 500px;
+  margin-top: 25px;
+  border: 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #000000, transparent);
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  align-items: start;
+  margin-top: 50px;
+  border: 1px solid black;
+  font-family: "Roboto", sans-serif;
+}
+.image img{
+  width: 150px;
+  margin-right: 10px;
+}
+
+.titulo{
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 900;
+}
+
+.descricao{
+  margin-top: 5px;
+  font-size: 16PX;
+  margin-left: 5px;
+}
+
+.autor{
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
