@@ -10,7 +10,7 @@ function carregarFrase(event) {
   let mesCorrigido = mesAtual < 10 ? "0" + mesAtual : mesAtual;
   let lista = [];
 
-  var url = `https://newsapi.org/v2/everything?q=${palavraChave}&from=2024-${mesCorrigido}-01&to=${dataAtual}&sortBy=popularity&apiKey=56bdd477e88842e9bd047243f345a4d5`;
+  var url = `https://newsapi.org/v2/everything?q=${palavraChave}&from=2024-${mesCorrigido}-01&to=${dataAtual}&sortBy=popularity&apiKey=API-KEY`;
 
   fetch(url)
     .then(function (response) {
