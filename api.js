@@ -8,9 +8,10 @@ function carregarFrase(event) {
   let mesAtual = new Date().getMonth() + 1;
   let dataAtual = new Date().toISOString().split('T')[0];
   let mesCorrigido = mesAtual < 10 ? "0" + mesAtual : mesAtual;
+  const api = '13137f3740f742029e10411e34a0da5b'
   let lista = [];
 
-  var url = `https://newsapi.org/v2/everything?q=${palavraChave}&from=2024-${mesCorrigido}-01&to=${dataAtual}&sortBy=popularity&apiKey=API-KEY`;
+  var url = `https://newsapi.org/v2/everything?q=${palavraChave}&from=2024-${mesCorrigido}-01&to=${dataAtual}&sortBy=popularity&apiKey=${api}`;
 
   fetch(url)
     .then(function (response) {
